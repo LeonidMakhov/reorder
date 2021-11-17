@@ -32,6 +32,7 @@ function App() {
 
     return (
         <div className="App">
+            <ul>Reorder</ul>
 
             {list.map((el, index) => (
                 <div key={el.id}>
